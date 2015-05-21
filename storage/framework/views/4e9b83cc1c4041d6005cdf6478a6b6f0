@@ -1,0 +1,19 @@
+<?php $__env->startSection('content'); ?>
+
+<h1>Contact me</h1>
+<p>
+    <p>
+        Phone: +84 166 77 44 366
+    </p>
+    <p>
+        Gmail: dangtrieu25@gmail.com
+    </p>
+</p>
+
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('footer'); ?>
+    <script>alert('Contact form script');</script>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

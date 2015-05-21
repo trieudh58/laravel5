@@ -1,0 +1,20 @@
+<?php $__env->startSection('content'); ?>
+
+    <h1>About me:</h1>
+    <h3>Activities I like:</h3>
+
+    <?php if(count($people)): ?>
+        <ul>
+            <?php foreach($people as $person): ?>
+                <li>
+                    <?php echo $person; ?>
+
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    <?php endif; ?>
+
+    <p>There's nothing to say about me. I'm just ridiculous</p>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
