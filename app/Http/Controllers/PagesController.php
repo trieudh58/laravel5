@@ -12,7 +12,8 @@ class PagesController extends Controller {
         $people = [
             'Sport',
             'Dota 2',
-            'Coding'
+            'Coding',
+            'Eating'
         ];
         return view('pages.about', compact('people'));
     }
